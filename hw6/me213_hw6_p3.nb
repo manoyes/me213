@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    402520,       7536]
-NotebookOptionsPosition[    399455,       7437]
-NotebookOutlinePosition[    399977,       7455]
-CellTagsIndexPosition[    399934,       7452]
+NotebookDataLength[    402337,       7529]
+NotebookOptionsPosition[    399257,       7429]
+NotebookOutlinePosition[    399835,       7449]
+CellTagsIndexPosition[    399792,       7446]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1852,19 +1852,6 @@ Cell[BoxData[
   RowBox[{"\[CapitalTau]0", ",", "wf"}], "]"}]], "Input",
  CellChangeTimes->{{3.602458076916157*^9, 3.602458085836282*^9}}],
 
-Cell[BoxData[
- RowBox[{"(*", " ", 
-  RowBox[{
-   RowBox[{"T0", " ", "=", " ", 
-    RowBox[{
-     RowBox[{
-      RowBox[{"1", "/", "15"}], " ", "at", " ", "c"}], "=", "10"}]}], ",", 
-   RowBox[{
-    RowBox[{"000.", " ", "w"}], " ", "=", " ", 
-    RowBox[{".855", " ", 
-     RowBox[{"rad", "/", "sec"}]}]}]}], " ", "*)"}]], "Input",
- CellChangeTimes->{{3.6024601941541367`*^9, 3.602460214657552*^9}}],
-
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -2424,7 +2411,7 @@ i4ss+L3r4g7UOo7/B+govlI=
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
-   ImageSize->{656.3671875, Automatic},
+   ImageSize->{266.59375, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-1.0783559763067403`, 1.0783559511782803`}},
    PlotRangeClipping->True,
@@ -2876,7 +2863,7 @@ IPO5Zvl3eX0WrmQ8X270j8w398pTwyos/GRKY3ZpiQkJ+WvE0qVZ+H+q+kaM
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
-   ImageSize->{656.3671875, Automatic},
+   ImageSize->{258.17578125, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.10783559763067402`, 0.10783559511782805`}},
    PlotRangeClipping->True,
@@ -4297,6 +4284,7 @@ B4YyDKM=
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{265.5234375, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.04309351500609355, 0.04309354240113042}},
    PlotRangeClipping->True,
@@ -4753,6 +4741,7 @@ Fdv+kX6oLzty9DQTv5lSn1tcZED8z9Pt148x8f8Ae4l9AA==
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{258.41796875, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.1135073472889995, 0.11350737357463356`}},
    PlotRangeClipping->True,
@@ -5628,6 +5617,7 @@ sSjMBx/0ag6OjVGY9eWfv3UUjuL/ADy90vo=
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{248.58984375, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-2146.854147873365, 2146.8567626247554`}},
    PlotRangeClipping->True,
@@ -6516,6 +6506,7 @@ miFD3iwpcN1pE/MNg9W4HiwM5HyEGuav/Y6h8teLqIzPkgefjUcnJzEYZbT2
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{239.43359375, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.3363930514888521, 0.3363931658924103}},
    PlotRangeClipping->True,
@@ -7415,6 +7406,7 @@ rzB0LsfDPHyc1FtfI+S+YOgi9HSx6S8KUg1X/QwfZOjK/mUjv39TMBpaMaak
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{244.07421875, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.399124036834136, 0.3991235742203447}},
    PlotRangeClipping->True,
@@ -7436,7 +7428,9 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{640, 752},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowMargins->{{275, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
 FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
 2013)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "Applications", 
@@ -7509,34 +7503,33 @@ Cell[41897, 1073, 192, 4, 38, "Input"],
 Cell[42092, 1079, 138, 3, 38, "Input"],
 Cell[42233, 1084, 30351, 763, 1877, "Input"],
 Cell[72587, 1849, 161, 3, 38, "Input"],
-Cell[72751, 1854, 398, 11, 38, "Input"],
 Cell[CellGroupData[{
-Cell[73174, 1869, 5366, 123, 379, "Input"],
-Cell[78543, 1994, 26956, 449, 426, "Output"],
-Cell[105502, 2445, 27015, 450, 422, "Output"]
+Cell[72773, 1856, 5366, 123, 379, "Input"],
+Cell[78142, 1981, 26954, 449, 180, "Output"],
+Cell[105099, 2432, 27016, 450, 171, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[132554, 2900, 1085, 28, 107, "Input"],
-Cell[133642, 2930, 83289, 1375, 236, "Output"]
+Cell[132152, 2887, 1085, 28, 107, "Input"],
+Cell[133240, 2917, 83329, 1376, 176, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[216968, 4310, 1090, 29, 107, "Input"],
-Cell[218061, 4341, 25098, 420, 236, "Output"]
+Cell[216606, 4298, 1090, 29, 107, "Input"],
+Cell[217699, 4329, 25139, 421, 171, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[243196, 4766, 1422, 38, 124, "Input"],
-Cell[244621, 4806, 50262, 833, 234, "Output"],
-Cell[294886, 5641, 478, 12, 38, "Output"]
+Cell[242875, 4755, 1422, 38, 124, "Input"],
+Cell[244300, 4795, 50303, 834, 164, "Output"],
+Cell[294606, 5631, 478, 12, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[295401, 5658, 1539, 39, 141, "Input"],
-Cell[296943, 5699, 49781, 825, 239, "Output"],
-Cell[346727, 6526, 286, 8, 38, "Output"]
+Cell[295121, 5648, 1539, 39, 141, "Input"],
+Cell[296663, 5689, 49822, 826, 162, "Output"],
+Cell[346488, 6517, 286, 8, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[347050, 6539, 1986, 52, 175, "Input"],
-Cell[349039, 6593, 50087, 830, 240, "Output"],
-Cell[399129, 7425, 310, 9, 38, "Output"]
+Cell[346811, 6530, 1986, 52, 175, "Input"],
+Cell[348800, 6584, 50128, 831, 204, "Output"],
+Cell[398931, 7417, 310, 9, 38, "Output"]
 }, Open  ]]
 }
 ]
