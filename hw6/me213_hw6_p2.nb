@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    223294,       4461]
-NotebookOptionsPosition[    220154,       4357]
-NotebookOutlinePosition[    220676,       4375]
-CellTagsIndexPosition[    220633,       4372]
+NotebookDataLength[    223510,       4467]
+NotebookOptionsPosition[    220313,       4361]
+NotebookOutlinePosition[    220893,       4381]
+CellTagsIndexPosition[    220850,       4378]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2127,6 +2127,7 @@ gt4ql8rp/2PBxv94BBMCCMofXTE9P8+CnrKqff//P+t/m84Pzg==
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{184.43359375, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-9.013718440948422, 9.013725634034094}},
    PlotRangeClipping->True,
@@ -2581,6 +2582,7 @@ TgK9mVw9//cvAyTPiXP/6yf/AyOKqlE=
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{182.8359375, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.09013718440948422, 0.09013725634034095}},
    PlotRangeClipping->True,
@@ -3980,6 +3982,7 @@ IOl7/zd5/+Gz4vsrCVTo5G0ZNUX2T+bPlhMi0j9za5jm0zzYMK8iPcaTQBU/
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{182.28125, Automatic},
    Method->{},
    PlotRange->{{0, 10}, {-0.0010053261459470435`, 0.0010053295370230743`}},
    PlotRangeClipping->True,
@@ -4332,6 +4335,7 @@ JeJeL+2bYiJHRlZvI1GBC/bW/pmZYaITsZXWRvoV+H/I4s3z
    Axes->True,
    AxesLabel->{None, None},
    AxesOrigin->{0, 0},
+   ImageSize->{175.8515625, Automatic},
    Method->{},
    PlotRange->{{0, 3}, {-1.0073862115147016`, 1.0077814592955088`}},
    PlotRangeClipping->True,
@@ -4356,7 +4360,9 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{640, 752},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 114}, {Automatic, 365}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
 FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
 2013)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "Applications", 
@@ -4419,7 +4425,7 @@ Cell[28188, 740, 2248, 59, 121, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[30473, 804, 1043, 29, 76, "Input"],
-Cell[31519, 835, 1500, 28, 105, "Output"],
+Cell[31519, 835, 1500, 28, 71, "Output"],
 Cell[33022, 865, 1500, 28, 71, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -4454,14 +4460,14 @@ Cell[55795, 1512, 3260, 99, 222, "Output"]
 Cell[59070, 1614, 205, 4, 38, "Input"],
 Cell[CellGroupData[{
 Cell[59300, 1622, 2854, 71, 243, "Input"],
-Cell[62157, 1695, 26957, 450, 244, "Output"],
-Cell[89117, 2147, 27053, 452, 236, "Output"],
-Cell[116173, 2601, 84750, 1397, 230, "Output"]
+Cell[62157, 1695, 26998, 451, 132, "Output"],
+Cell[89158, 2148, 27093, 453, 123, "Output"],
+Cell[116254, 2603, 84788, 1398, 122, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[200960, 4003, 2139, 57, 220, "Input"],
-Cell[203102, 4062, 16601, 280, 239, "Output"],
-Cell[219706, 4344, 432, 10, 72, "Output"]
+Cell[201079, 4006, 2139, 57, 220, "Input"],
+Cell[203221, 4065, 16641, 281, 160, "Output"],
+Cell[219865, 4348, 432, 10, 38, "Output"]
 }, Open  ]]
 }
 ]
