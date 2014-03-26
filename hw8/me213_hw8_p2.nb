@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     16253,        529]
-NotebookOptionsPosition[     14673,        472]
-NotebookOutlinePosition[     15198,        490]
-CellTagsIndexPosition[     15155,        487]
+NotebookDataLength[     16600,        540]
+NotebookOptionsPosition[     15021,        483]
+NotebookOutlinePosition[     15545,        501]
+CellTagsIndexPosition[     15502,        498]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -267,10 +267,16 @@ Cell[BoxData[
        RowBox[{"0", ",", "1"}], "}"}], ",", "\[IndentingNewLine]", "  ", 
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"g", "/", "l"}], ",", "0"}], "}"}]}], "}"}]}], ")"}], "//", 
+        RowBox[{"g", "/", "l"}], ",", 
+        RowBox[{
+         RowBox[{"-", " ", 
+          RowBox[{"K", "^", "2"}]}], " ", "/", " ", 
+         RowBox[{"(", 
+          RowBox[{"Ix", " ", "R"}], ")"}]}]}], "}"}]}], "}"}]}], ")"}], "//", 
   "MatrixForm"}]], "Input",
  CellChangeTimes->{{3.604800593451913*^9, 3.604800602371798*^9}, {
-  3.604801451555686*^9, 3.6048014666325693`*^9}}],
+  3.604801451555686*^9, 3.6048014666325693`*^9}, {3.604801814868164*^9, 
+  3.604801829841008*^9}}],
 
 Cell[BoxData[
  FormBox[
@@ -278,7 +284,11 @@ Cell[BoxData[
    RowBox[{"(", "\[NoBreak]", GridBox[{
       {"0", "1"},
       {
-       FractionBox["g", "l"], "0"}
+       FractionBox["g", "l"], 
+       RowBox[{"-", 
+        FractionBox[
+         SuperscriptBox["K", "2"], 
+         RowBox[{"Ix", " ", "R"}]]}]}
      },
      GridBoxAlignment->{
       "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}},
@@ -292,7 +302,8 @@ Cell[BoxData[
          Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
    Function[BoxForm`e$, 
     MatrixForm[BoxForm`e$]]], TraditionalForm]], "Output",
- CellChangeTimes->{3.604800618409205*^9, 3.604801469086813*^9}]
+ CellChangeTimes->{3.604800618409205*^9, 3.604801469086813*^9, 
+  3.604801833482486*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -471,7 +482,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{740, 652},
-WindowMargins->{{Automatic, -27}, {Automatic, 45}},
+WindowMargins->{{Automatic, 71}, {Automatic, 25}},
 FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
 2013)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "Applications", 
@@ -512,24 +523,24 @@ Cell[7134, 229, 419, 12, 38, "Input"],
 Cell[7556, 243, 397, 11, 58, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7990, 259, 445, 13, 56, "Input"],
-Cell[8438, 274, 720, 20, 75, "Output"]
+Cell[7990, 259, 656, 19, 56, "Input"],
+Cell[8649, 280, 857, 25, 81, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9195, 299, 322, 9, 38, "Input"],
-Cell[9520, 310, 733, 21, 58, "Output"]
+Cell[9543, 310, 322, 9, 38, "Input"],
+Cell[9868, 321, 733, 21, 58, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10290, 336, 221, 6, 38, "Input"],
-Cell[10514, 344, 588, 17, 56, "Output"]
+Cell[10638, 347, 221, 6, 38, "Input"],
+Cell[10862, 355, 588, 17, 56, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11139, 366, 153, 3, 38, "Input"],
-Cell[11295, 371, 194, 6, 58, "Output"]
+Cell[11487, 377, 153, 3, 38, "Input"],
+Cell[11643, 382, 194, 6, 58, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11526, 382, 348, 9, 38, "Input"],
-Cell[11877, 393, 2780, 76, 161, "Output"]
+Cell[11874, 393, 348, 9, 38, "Input"],
+Cell[12225, 404, 2780, 76, 103, "Output"]
 }, Open  ]]
 }
 ]
