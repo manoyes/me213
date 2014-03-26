@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      8907,        273]
-NotebookOptionsPosition[      7997,        240]
-NotebookOutlinePosition[      8524,        258]
-CellTagsIndexPosition[      8481,        255]
+NotebookDataLength[      9106,        278]
+NotebookOptionsPosition[      8197,        245]
+NotebookOutlinePosition[      8722,        263]
+CellTagsIndexPosition[      8679,        260]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -119,7 +119,8 @@ Cell[BoxData[
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], 
   TraditionalForm]], "Output",
  CellChangeTimes->{
-  3.604801730104521*^9, {3.604801936135303*^9, 3.604801942820017*^9}}],
+  3.604801730104521*^9, {3.604801936135303*^9, 3.604801942820017*^9}, 
+   3.604850391113656*^9}],
 
 Cell[BoxData[
  FormBox[
@@ -134,7 +135,8 @@ Cell[BoxData[
     RowBox[{"L", "\[Rule]", "0.01`"}], ",", 
     RowBox[{"g", "\[Rule]", "9.81`"}]}], "}"}], TraditionalForm]], "Output",
  CellChangeTimes->{
-  3.604801730104521*^9, {3.604801936135303*^9, 3.604801942822535*^9}}]
+  3.604801730104521*^9, {3.604801936135303*^9, 3.604801942820017*^9}, 
+   3.604850391117613*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -166,7 +168,7 @@ Cell[BoxData[
          Offset[0.4]}, 
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], 
   TraditionalForm]], "Output",
- CellChangeTimes->{3.604801958510376*^9}]
+ CellChangeTimes->{3.604801958510376*^9, 3.6048503940586*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -190,7 +192,8 @@ Cell[BoxData[
     RowBox[{"-", "0.004185727706005594`"}], ",", "0"}], "}"}], 
   TraditionalForm]], "Output",
  CellChangeTimes->{
-  3.604802012783607*^9, {3.60480205461018*^9, 3.604802061997693*^9}}]
+  3.604802012783607*^9, {3.60480205461018*^9, 3.604802061997693*^9}, 
+   3.6048503959142647`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -202,7 +205,8 @@ Cell[BoxData[
     RowBox[{"Eigenvectors", "[", 
      RowBox[{"A", " ", "/.", " ", "parameters"}], "]"}], "]"}], 
    "]"}]}]], "Input",
- CellChangeTimes->{{3.604802023468272*^9, 3.604802048803947*^9}}],
+ CellChangeTimes->{{3.604802023468272*^9, 3.604802048803947*^9}, {
+  3.6048503694274597`*^9, 3.604850383974327*^9}}],
 
 Cell[BoxData[
  FormBox[
@@ -235,11 +239,12 @@ Cell[BoxData[
          Offset[0.4]}, 
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], 
   TraditionalForm]], "Output",
- CellChangeTimes->{{3.604802033414185*^9, 3.604802049231719*^9}}]
+ CellChangeTimes->{{3.604802033414185*^9, 3.604802049231719*^9}, {
+  3.604850373217269*^9, 3.604850398432788*^9}}]
 }, Open  ]]
 },
 WindowSize->{740, 652},
-WindowMargins->{{Automatic, -59}, {-237, Automatic}},
+WindowMargins->{{Automatic, 260}, {Automatic, 17}},
 FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
 2013)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "Applications", 
@@ -260,20 +265,20 @@ Notebook[{
 Cell[557, 20, 76, 1, 38, "Input"],
 Cell[CellGroupData[{
 Cell[658, 25, 2176, 57, 158, "Input"],
-Cell[2837, 84, 1201, 37, 134, "Output"],
-Cell[4041, 123, 521, 13, 38, "Output"]
+Cell[2837, 84, 1227, 38, 134, "Output"],
+Cell[4067, 124, 547, 14, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4599, 141, 133, 2, 38, "Input"],
-Cell[4735, 145, 847, 23, 108, "Output"]
+Cell[4651, 143, 133, 2, 38, "Input"],
+Cell[4787, 147, 867, 23, 108, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5619, 173, 334, 8, 38, "Input"],
-Cell[5956, 183, 358, 9, 38, "Output"]
+Cell[5691, 175, 334, 8, 38, "Input"],
+Cell[6028, 185, 386, 10, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6351, 197, 291, 7, 38, "Input"],
-Cell[6645, 206, 1336, 31, 114, "Output"]
+Cell[6451, 200, 342, 8, 38, "Input"],
+Cell[6796, 210, 1385, 32, 172, "Output"]
 }, Open  ]]
 }
 ]
