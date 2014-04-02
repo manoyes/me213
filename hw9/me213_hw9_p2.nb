@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      8928,        257]
-NotebookOptionsPosition[      8273,        234]
-NotebookOutlinePosition[      8798,        252]
-CellTagsIndexPosition[      8755,        249]
+NotebookDataLength[      9034,        258]
+NotebookOptionsPosition[      8380,        235]
+NotebookOutlinePosition[      8904,        253]
+CellTagsIndexPosition[      8861,        250]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -81,6 +81,7 @@ Cell[BoxData[
     RowBox[{"resolvent", " ", "=", " ", 
      RowBox[{"Inverse", "[", "nAstar", "]"}]}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
+   RowBox[{"(*", "Answer", "*)"}], "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
     "Raw", " ", "answer", " ", "relating", " ", "scaled", " ", "ball", " ", 
@@ -142,7 +143,7 @@ Cell[BoxData[
    3.605208850844151*^9, 3.60520888783842*^9}, {3.605208996917588*^9, 
    3.605209035048156*^9}, {3.605209894825097*^9, 3.605209903640793*^9}, {
    3.605213453722887*^9, 3.605213665957184*^9}, {3.6052137039330378`*^9, 
-   3.6052137939111834`*^9}}],
+   3.6052137939111834`*^9}, {3.605469150015872*^9, 3.6054691520997066`*^9}}],
 
 Cell[BoxData[
  FormBox[
@@ -233,7 +234,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{740, 652},
-WindowMargins->{{Automatic, 98}, {-56, Automatic}},
+WindowMargins->{{Automatic, 223}, {Automatic, 0}},
 FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
 2013)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "Applications", 
@@ -253,11 +254,11 @@ CellTagsIndex->{}
 Notebook[{
 Cell[557, 20, 485, 7, 38, "Input"],
 Cell[CellGroupData[{
-Cell[1067, 31, 4257, 113, 379, "Input"],
-Cell[5327, 146, 959, 27, 92, "Output"],
-Cell[6289, 175, 774, 21, 84, "Output"],
-Cell[7066, 198, 556, 16, 64, "Output"],
-Cell[7625, 216, 632, 15, 62, "Output"]
+Cell[1067, 31, 4364, 114, 396, "Input"],
+Cell[5434, 147, 959, 27, 92, "Output"],
+Cell[6396, 176, 774, 21, 84, "Output"],
+Cell[7173, 199, 556, 16, 64, "Output"],
+Cell[7732, 217, 632, 15, 62, "Output"]
 }, Open  ]]
 }
 ]

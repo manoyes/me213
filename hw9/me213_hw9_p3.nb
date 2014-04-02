@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     10337,        281]
-NotebookOptionsPosition[      9684,        258]
-NotebookOutlinePosition[     10206,        276]
-CellTagsIndexPosition[     10163,        273]
+NotebookDataLength[     10443,        282]
+NotebookOptionsPosition[      9791,        259]
+NotebookOutlinePosition[     10313,        277]
+CellTagsIndexPosition[     10270,        274]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -81,6 +81,7 @@ Cell[BoxData[
     RowBox[{"resolvent", " ", "=", " ", 
      RowBox[{"Inverse", "[", "nAstar", "]"}]}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
+   RowBox[{"(*", "Answer", "*)"}], "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
      RowBox[{
@@ -173,7 +174,7 @@ Cell[BoxData[
    3.605213946352085*^9, 3.6052139679036617`*^9}, {3.605214017606779*^9, 
    3.605214157607231*^9}, {3.605214249599819*^9, 3.605214249672635*^9}, {
    3.6054522001699247`*^9, 3.605452215636698*^9}, {3.605452325882914*^9, 
-   3.605452352167783*^9}}],
+   3.605452352167783*^9}, {3.605469159824197*^9, 3.6054691613096113`*^9}}],
 
 Cell[BoxData[
  FormBox[
@@ -277,11 +278,11 @@ CellTagsIndex->{}
 Notebook[{
 Cell[557, 20, 485, 7, 38, "Input"],
 Cell[CellGroupData[{
-Cell[1067, 31, 5545, 144, 425, "Input"],
-Cell[6615, 177, 1111, 29, 92, "Output"],
-Cell[7729, 208, 928, 23, 84, "Output"],
-Cell[8660, 233, 473, 9, 58, "Output"],
-Cell[9136, 244, 532, 11, 102, "Output"]
+Cell[1067, 31, 5652, 145, 442, "Input"],
+Cell[6722, 178, 1111, 29, 92, "Output"],
+Cell[7836, 209, 928, 23, 84, "Output"],
+Cell[8767, 234, 473, 9, 58, "Output"],
+Cell[9243, 245, 532, 11, 68, "Output"]
 }, Open  ]]
 }
 ]
