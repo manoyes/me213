@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     19461,        567]
-NotebookOptionsPosition[     18084,        519]
-NotebookOutlinePosition[     18608,        537]
-CellTagsIndexPosition[     18565,        534]
+NotebookDataLength[     19623,        571]
+NotebookOptionsPosition[     18246,        523]
+NotebookOutlinePosition[     18770,        541]
+CellTagsIndexPosition[     18727,        538]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -487,11 +487,13 @@ Cell[BoxData[
        RowBox[{"K", "^", "2"}], " ", "/", " ", 
        RowBox[{"(", 
         RowBox[{"Im", " ", "L"}], ")"}]}], ")"}], 
-     RowBox[{"z", "[", "t", "]"}]}]}], " ", "\[Equal]", " ", 
+     RowBox[{
+      RowBox[{"z", "'"}], "[", "t", "]"}]}]}], " ", "\[Equal]", " ", 
    RowBox[{"e", "[", "t", "]"}]}]}]], "Input",
  CellChangeTimes->{{3.6060813055504103`*^9, 3.606081325405129*^9}, {
   3.606081368675003*^9, 3.606081382697941*^9}, {3.606081421646559*^9, 
-  3.6060815099278803`*^9}, {3.606081544838236*^9, 3.606081547478654*^9}}],
+  3.6060815099278803`*^9}, {3.606081544838236*^9, 3.606081547478654*^9}, {
+  3.606135507431829*^9, 3.606135508412177*^9}}],
 
 Cell[BoxData[
  FormBox[
@@ -500,7 +502,9 @@ Cell[BoxData[
     FractionBox[
      RowBox[{
       SuperscriptBox["K", "2"], " ", 
-      RowBox[{"z", "(", "t", ")"}]}], 
+      RowBox[{
+       SuperscriptBox["z", "\[Prime]",
+        MultilineFunction->None], "(", "t", ")"}]}], 
      RowBox[{"Im", " ", "L"}]], "+", 
     FractionBox[
      RowBox[{"R", " ", 
@@ -514,7 +518,7 @@ Cell[BoxData[
        Derivative],
       MultilineFunction->None], "(", "t", ")"}]}], "\[LongEqual]", 
    RowBox[{"e", "(", "t", ")"}]}], TraditionalForm]], "Output",
- CellChangeTimes->{3.6060815129241962`*^9}]
+ CellChangeTimes->{3.6060815129241962`*^9, 3.606135509574147*^9}]
 }, Open  ]]
 },
 WindowSize->{640, 752},
@@ -566,8 +570,8 @@ Cell[14213, 397, 999, 28, 86, "Output"],
 Cell[15215, 427, 813, 22, 74, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16065, 454, 1359, 39, 104, "Input"],
-Cell[17427, 495, 641, 21, 61, "Output"]
+Cell[16065, 454, 1430, 41, 104, "Input"],
+Cell[17498, 497, 732, 23, 95, "Output"]
 }, Open  ]]
 }
 ]
